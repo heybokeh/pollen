@@ -48,7 +48,7 @@ module.exports = (pollen) => ({
   modules: {
     ...pollen,
     color: {
-      ...pollen.colors,
+      ...pollen.color,
       bg: "white",
       text: "var(--color-black)",
     },
